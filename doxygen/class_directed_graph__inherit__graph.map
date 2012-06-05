@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_default_directed_graph.html" title="{DefaultDirectedGraph\&lt; V, E \&gt;\n||+ DefaultDirectedGraph()\l+ DefaultDirectedGraph()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l}" alt="" coords="47,177,241,327"/>
-<area shape="rect" id="node7" href="$class_directed_multigraph.html" title="{DirectedMultigraph\&lt; V, E \&gt;\n||+ DirectedMultigraph()\l+ ~DirectedMultigraph()\l}" alt="" coords="293,206,472,298"/>
-<area shape="rect" id="node5" href="$class_default_directed_weighted_graph.html" title="{DefaultDirectedWeightedGraph\&lt; V, E \&gt;\n||+ DefaultDirectedWeightedGraph()\l+ DefaultDirectedWeightedGraph()\l+ ~DefaultDirectedWeightedGraph()\l}" alt="" coords="5,376,256,483"/>
-<area shape="rect" id="node9" href="$class_directed_weighted_multigraph.html" title="{DirectedWeightedMultigraph\&lt; V, E \&gt;\n||+ DirectedWeightedMultigraph()\l+ ~DirectedWeightedMultigraph()\l}" alt="" coords="280,383,515,475"/>
-</map>

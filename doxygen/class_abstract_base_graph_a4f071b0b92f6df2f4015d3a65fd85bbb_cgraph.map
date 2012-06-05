@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_abstract_base_graph.html#a615cb9f49c5f2c89947b9baee1208b88" title="getEdge" alt="" coords="315,5,386,32"/>
-<area shape="rect" id="node7" href="$class_abstract_base_graph_1_1_specifics.html#a7b1acac2ebabad264fa6912fd0a16aa6" title="AbstractBaseGraph::Specifics::removeEdgeFromTouchingVertices" alt="" coords="147,56,554,83"/>
-<area shape="rect" id="node5" href="$class_abstract_base_graph_1_1_specifics.html#a44dd5c737a157823289a824e0e77a03e" title="AbstractBaseGraph::Specifics::getEdge" alt="" coords="603,5,856,32"/>
-</map>

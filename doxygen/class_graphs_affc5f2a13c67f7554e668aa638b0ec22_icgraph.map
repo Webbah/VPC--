@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_graphs.html#a372838f566b9cb63fc494f405c1666d7" title="Graphs::getPathVertexList" alt="" coords="236,5,412,32"/>
-<area shape="rect" id="node5" href="$class_graphs.html#ade47d0e5fc33740358edffb6a97c5a55" title="Graphs::neighborListOf" alt="" coords="247,56,401,83"/>
-<area shape="rect" id="node7" href="$class_graphs.html#a7f058f8da4bcdedb31e61124c8a0015a" title="Graphs::predecessorListOf" alt="" coords="235,107,413,133"/>
-<area shape="rect" id="node9" href="$class_graphs.html#ac85e4714c62d34f5c58a2378bf4974df" title="Graphs::successorListOf" alt="" coords="241,157,407,184"/>
-</map>

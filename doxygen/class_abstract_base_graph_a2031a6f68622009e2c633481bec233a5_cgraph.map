@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_abstract_base_graph_1_1_specifics.html#aa1c6a9966f93a493d3ba7f393682dba5" title="AbstractBaseGraph::Specifics::addEdgeToTouchingVertices" alt="" coords="128,5,499,32"/>
-<area shape="rect" id="node5" href="$class_abstract_graph.html#a498dd9317d86a4babf3e55b5b7a7a225" title="AbstractGraph::assertVertexExist" alt="" coords="204,56,423,83"/>
-<area shape="rect" id="node9" href="$class_abstract_base_graph.html#aaf19c18d9a70b7b77a5f91147df2d62c" title="containsEdge" alt="" coords="263,107,364,133"/>
-<area shape="rect" id="node11" href="$class_abstract_graph.html#aa5656d43502f30742b89589a9fc4c892" title="AbstractGraph::containsEdgeV" alt="" coords="212,157,415,184"/>
-<area shape="rect" id="node15" href="$class_abstract_base_graph.html#a20ac7f96e4035801bc60ff24ec00b6ca" title="createIntrusiveEdge" alt="" coords="246,208,381,235"/>
-<area shape="rect" id="node7" href="$class_graph.html#a29f1b6d0f79fd422966c1db3308679c6" title="Graph::containsVertex" alt="" coords="547,56,699,83"/>
-<area shape="rect" id="node13" href="$class_graph.html#a44dd5c737a157823289a824e0e77a03e" title="Graph::getEdge" alt="" coords="566,157,679,184"/>
-</map>

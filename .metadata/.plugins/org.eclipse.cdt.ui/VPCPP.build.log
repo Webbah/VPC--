@@ -1,0 +1,124 @@
+
+**** Build of configuration Debug for project VPCPP ****
+
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:3:
+../src/AbstractBaseGraph.h:8:27: warning: AbstractGraph.h: No such file or directory
+../src/AbstractBaseGraph.h:9:25: warning: EdgeFactory.h: No such file or directory
+../src/AbstractBaseGraph.h:10:28: warning: EdgeSetFactory.h: No such file or directory
+../src/AbstractBaseGraph.h:11:20: warning: Graphs.h: No such file or directory
+../src/AbstractBaseGraph.h:12:27: warning: IntrusiveEdge.h: No such file or directory
+../src/AbstractBaseGraph.h:13:29: warning: UndirectedGraph.h: No such file or directory
+../src/AbstractBaseGraph.h:14:27: warning: WeightedGraph.h: No such file or directory
+In file included from ../src/main.cpp:4:
+../src/AbstractGraph.h:8:19: warning: Graph.h: No such file or directory
+../src/AbstractGraph.h:9:27: warning: DirectedGraph.h: No such file or directory
+../src/AbstractGraph.h:10:25: warning: DefaultEdge.h: No such file or directory
+../src/AbstractGraph.h:11:33: warning: DefaultWeightedEdge.h: No such file or directory
+In file included from ../src/main.cpp:5:
+../src/AsUndirectedGraph.h:7:28: warning: GraphDelegator.h: No such file or directory
+In file included from ../src/main.cpp:7:
+../src/ClassBasedVertexFactory.h:7:27: warning: VertexFactory.h: No such file or directory
+In file included from ../src/main.cpp:10:
+../src/DefaultDirectedGraph.h:5:31: warning: AbstractBaseGraph.h: No such file or directory
+../src/DefaultDirectedGraph.h:7:35: warning: ClassBasedEdgeFactory.h: No such file or directory
+In file included from ../src/main.cpp:11:
+../src/DefaultDirectedWeightedGraph.h:6:34: warning: DefaultDirectedGraph.h: No such file or directory
+In file included from ../src/main.cpp:19:
+../src/Graphs.h:12:31: warning: AsUndirectedGraph.h: No such file or directory
+../src/Graphs.h:13:23: warning: GraphPath.h: No such file or directory
+In file included from ../src/main.cpp:3:
+../src/AbstractBaseGraph.h:29: error: expected template-name before '<' token
+../src/AbstractBaseGraph.h:29: error: expected `{' before '<' token
+../src/AbstractBaseGraph.h:29: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:4:
+../src/AbstractGraph.h:25: error: expected template-name before '<' token
+../src/AbstractGraph.h:25: error: expected `{' before '<' token
+../src/AbstractGraph.h:25: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:5:
+../src/AsUndirectedGraph.h:41: error: expected template-name before '<' token
+../src/AsUndirectedGraph.h:41: error: expected `{' before '<' token
+../src/AsUndirectedGraph.h:41: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:6:
+../src/ClassBasedEdgeFactory.h:18: error: expected template-name before '<' token
+../src/ClassBasedEdgeFactory.h:18: error: expected `{' before '<' token
+../src/ClassBasedEdgeFactory.h:18: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:7:
+../src/ClassBasedVertexFactory.h:19: error: expected template-name before '<' token
+../src/ClassBasedVertexFactory.h:19: error: expected `{' before '<' token
+../src/ClassBasedVertexFactory.h:19: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:8:
+../src/DefaultEdge.h:20: error: expected template-name before '<' token
+../src/DefaultEdge.h:20: error: expected `{' before '<' token
+../src/DefaultEdge.h:20: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:9:
+../src/DefaultWeightedEdge.h: In constructor 'DefaultWeightedEdge<V>::DefaultWeightedEdge()':
+../src/DefaultWeightedEdge.h:23: error: 'WeightedGraph' was not declared in this scope
+../src/DefaultWeightedEdge.h:23: error: expected primary-expression before '*' token
+../src/DefaultWeightedEdge.h:23: error: expected primary-expression before ',' token
+../src/DefaultWeightedEdge.h:23: error: expected primary-expression before '>' token
+../src/DefaultWeightedEdge.h:23: error: '::DEFAULT_EDGE_WEIGHT' has not been declared
+In file included from ../src/main.cpp:10:
+../src/DefaultDirectedGraph.h: At global scope:
+../src/DefaultDirectedGraph.h:20: error: expected template-name before '<' token
+../src/DefaultDirectedGraph.h:20: error: expected `{' before '<' token
+../src/DefaultDirectedGraph.h:20: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:11:
+../src/DefaultDirectedWeightedGraph.h:22: error: expected template-name before '<' token
+../src/DefaultDirectedWeightedGraph.h:22: error: expected `{' before '<' token
+../src/DefaultDirectedWeightedGraph.h:22: error: expected unqualified-id before '<' token
+In file included from ../src/main.cpp:13:
+../src/DirectedMultigraph.h:28: error: expected `)' before '<' token
+In file included from ../src/main.cpp:17:
+../src/GraphDelegator.h: In member function 'int GraphDelegator<V, E>::degreeOf(V*)':
+../src/GraphDelegator.h:132: error: 'UndirectedGraph' was not declared in this scope
+../src/GraphDelegator.h:132: error: expected primary-expression before ',' token
+../src/GraphDelegator.h:132: error: expected primary-expression before '>' token
+../src/GraphDelegator.h:132: error: expected primary-expression before ')' token
+../src/GraphDelegator.h:132: error: expected `)' before 'delegate'
+../src/GraphDelegator.h: In member function 'void GraphDelegator<V, E>::setEdgeWeight(E*, double)':
+../src/GraphDelegator.h:256: error: 'WeightedGraph' was not declared in this scope
+../src/GraphDelegator.h:256: error: expected primary-expression before ',' token
+../src/GraphDelegator.h:256: error: expected primary-expression before '>' token
+../src/GraphDelegator.h:256: error: expected primary-expression before ')' token
+../src/GraphDelegator.h:256: error: expected `)' before 'delegate'
+In file included from ../src/main.cpp:19:
+../src/Graphs.h: At global scope:
+../src/Graphs.h:363: error: expected initializer before '<' token
+../src/Graphs.h: In static member function 'static E* Graphs::addEdge(Graph<V, E>*, V*, V*, double)':
+../src/Graphs.h:56: error: 'WeightedGraph' was not declared in this scope
+../src/Graphs.h:56: error: expected primary-expression before ',' token
+../src/Graphs.h:56: error: expected primary-expression before '>' token
+../src/Graphs.h:56: error: expected primary-expression before ')' token
+../src/Graphs.h:57: error: expected primary-expression before ',' token
+../src/Graphs.h:57: error: expected primary-expression before '>' token
+../src/Graphs.h:57: error: 'gAsWeightedGraph' was not declared in this scope
+../src/Graphs.h:57: error: expected primary-expression before ',' token
+../src/Graphs.h:57: error: expected primary-expression before '>' token
+../src/Graphs.h:57: error: expected primary-expression before ')' token
+../src/Graphs.h:57: error: expected `;' before 'g'
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:32: error: invalid use of incomplete type 'class ClassBasedEdgeFactory<int, DefaultEdge<int> >'
+../src/ClassBasedEdgeFactory.h:18: error: declaration of 'class ClassBasedEdgeFactory<int, DefaultEdge<int> >'
+../src/main.cpp:33: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:38: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:39: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:40: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:42: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:44: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:45: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/main.cpp:47: error: invalid use of incomplete type 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+../src/DefaultDirectedGraph.h:20: error: declaration of 'class DefaultDirectedGraph<int, DefaultEdge<int> >'
+make: *** [src/main.o] Error 1
+
+**** Build Finished ****

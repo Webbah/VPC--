@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_graphs.html#ab255c8b8d02b42dc9cc14e84431c3a99" title="addEdge" alt="" coords="229,81,302,108"/>
-<area shape="rect" id="node13" href="$class_graph.html#a9c0d92fa166b2965817cc13260354026" title="Graph::addVertex" alt="" coords="203,132,327,159"/>
-<area shape="rect" id="node5" href="$class_graph.html#aa116bd4e9779e69276933db018c66b2f" title="Graph::addEdge" alt="" coords="423,5,539,32"/>
-<area shape="rect" id="node7" href="$class_edge_factory.html#a2a7b7ce57966f49a0b5a09f0b74fa786" title="EdgeFactory::createEdge" alt="" coords="396,56,567,83"/>
-<area shape="rect" id="node9" href="$class_graph.html#a666807bb15503964e7d56ec4af921ff3" title="Graph::getEdgeFactory" alt="" coords="403,107,560,133"/>
-<area shape="rect" id="node11" href="$class_weighted_graph.html#acafadfb86f1b97249a124a1069728893" title="WeightedGraph::setEdgeWeight" alt="" coords="377,157,586,184"/>
-</map>

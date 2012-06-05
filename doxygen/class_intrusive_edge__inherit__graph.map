@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_default_edge.html" title="{DefaultEdge\&lt; V \&gt;\n||+ toString()\l# getSource()\l# getTarget()\l}" alt="" coords="32,147,157,253"/>
-<area shape="rect" id="node5" href="$class_default_weighted_edge.html" title="{DefaultWeightedEdge\&lt; V \&gt;\n|+ weight\l|+ DefaultWeightedEdge()\l+ getWeight()\l}" alt="" coords="5,302,184,394"/>
-</map>

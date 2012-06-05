@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_graph.html#a465eee83a61d20717d4be8f81190a1a9" title="Graph::edgeSet" alt="" coords="265,5,378,32"/>
-<area shape="rect" id="node5" href="$class_abstract_graph.html#ab9acbbc5ef7124061bad2ad0b831dd0f" title="AbstractGraph::toStringFromSets" alt="" coords="213,56,429,83"/>
-<area shape="rect" id="node11" href="$class_graph.html#ab36598779e467df57ca2e5f90d7e7260" title="Graph::vertexSet" alt="" coords="262,107,381,133"/>
-<area shape="rect" id="node7" href="$class_graph.html#af856a0f0966ef38d8cf0820dc60539fa" title="Graph::getEdgeSource" alt="" coords="477,31,632,57"/>
-<area shape="rect" id="node9" href="$class_graph.html#acab5ceac7a133b458c1f4b69c55b2f55" title="Graph::getEdgeTarget" alt="" coords="480,81,629,108"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_graphs.html#a6497275ecc453abb9e6f4756505b41ef" title="Graphs::addGraph" alt="" coords="195,5,323,32"/>
-<area shape="rect" id="node5" href="$class_graphs.html#afe6903a9c5ed0e4bf52db0313a3e636a" title="Graphs::addGraphReversed" alt="" coords="168,56,349,83"/>
-<area shape="rect" id="node7" href="$class_abstract_graph.html#a28464dc3c4cb2274453a77e12f7f8c35" title="AbstractGraph::toString" alt="" coords="179,107,338,133"/>
-</map>

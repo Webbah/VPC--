@@ -1,9 +1,0 @@
-syntax:glob
-
-# eclipse project-files
-./.project
-./.cproject
-./.classpath
-./Debug/*
-./Release/*
-./.settings/*
