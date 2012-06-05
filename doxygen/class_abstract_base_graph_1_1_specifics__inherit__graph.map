@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_abstract_base_graph_1_1_directed_specifics.html" title="{DirectedSpecifics\n|+ vertexMapDirected\l|+ DirectedSpecifics()\l+ addVertex()\l+ getVertexSet()\l+ getAllEdges()\l+ getEdge()\l+ addEdgeToTouchingVertices()\l+ degreeOf()\l+ edgesOf()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l+ removeEdgeFromTouchingVertices()\l+ getEdgeContainer()\l}" alt="" coords="5,307,248,575"/>
+<area shape="rect" id="node5" href="$class_abstract_base_graph_1_1_undirected_specifics.html" title="{UndirectedSpecifics\n|+ vertexMapUndirected\l|+ UndirectedSpecifics()\l+ addVertex()\l+ getVertexSet()\l+ getAllEdges()\l+ getEdge()\l+ addEdgeToTouchingVertices()\l+ degreeOf()\l+ edgesOf()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l+ removeEdgeFromTouchingVertices()\l+ getEdgeContainer()\l}" alt="" coords="272,307,515,575"/>
+</map>

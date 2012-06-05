@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_abstract_graph.html#a5b9f8763259d8ba3c5f5bda7c32c470e" title="AbstractGraph::removeAllEdges" alt="" coords="190,31,397,57"/>
+<area shape="rect" id="node5" href="$class_abstract_graph.html#aab342f8e2fa19f6c6646636f1c1322b6" title="AbstractGraph::removeAllEdges" alt="" coords="454,5,661,32"/>
+<area shape="rect" id="node7" href="$class_abstract_base_graph.html#a965305ceff277c69885ecfd4c47a332c" title="AbstractBaseGraph::removeVertex" alt="" coords="446,56,669,83"/>
+</map>

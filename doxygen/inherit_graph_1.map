@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_abstract_base_graph_1_1_specifics.html" title="AbstractBaseGraph\&lt; V, E \&gt;::Specifics" alt="" coords="6,31,253,57"/>
+<area shape="rect" id="node3" href="$class_abstract_base_graph_1_1_directed_specifics.html" title="AbstractBaseGraph\&lt; V, E \&gt;::DirectedSpecifics" alt="" coords="309,5,603,32"/>
+<area shape="rect" id="node5" href="$class_abstract_base_graph_1_1_undirected_specifics.html" title="AbstractBaseGraph\&lt; V, E \&gt;::UndirectedSpecifics" alt="" coords="301,56,611,83"/>
+</map>

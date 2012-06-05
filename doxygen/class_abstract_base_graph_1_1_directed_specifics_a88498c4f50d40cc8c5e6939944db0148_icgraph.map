@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_abstract_base_graph_1_1_directed_specifics.html#a3df8455b7dd37631353e36bb94431c9f" title="addEdgeToTouchingVertices" alt="" coords="197,5,384,32"/>
+<area shape="rect" id="node5" href="$class_abstract_base_graph_1_1_directed_specifics.html#a64f71021386c68174ff6a69e7d0792e6" title="edgesOf" alt="" coords="451,81,522,108"/>
+<area shape="rect" id="node7" href="$class_abstract_base_graph_1_1_directed_specifics.html#a191941579e5bf4155c061e59a6f1367a" title="getAllEdges" alt="" coords="245,107,337,133"/>
+<area shape="rect" id="node10" href="$class_abstract_base_graph_1_1_directed_specifics.html#a615cb9f49c5f2c89947b9baee1208b88" title="getEdge" alt="" coords="255,157,326,184"/>
+<area shape="rect" id="node12" href="$class_abstract_base_graph_1_1_directed_specifics.html#ae9a65d699bdb261f0a54a4463f63c992" title="incomingEdgesOf" alt="" coords="229,208,353,235"/>
+<area shape="rect" id="node14" href="$class_abstract_base_graph_1_1_directed_specifics.html#a705bcd5c677631a80f21591687aff8ed" title="inDegreeOf" alt="" coords="247,259,334,285"/>
+<area shape="rect" id="node16" href="$class_abstract_base_graph_1_1_directed_specifics.html#a6222f5a7a394d98698637c72f8e6376a" title="outDegreeOf" alt="" coords="243,309,338,336"/>
+<area shape="rect" id="node18" href="$class_abstract_base_graph_1_1_directed_specifics.html#a969ffca8fae0fdd601ff1970c28951b8" title="outgoingEdgesOf" alt="" coords="230,360,351,387"/>
+<area shape="rect" id="node20" href="$class_abstract_base_graph_1_1_directed_specifics.html#a6d4cde3ee55a40c1f4e2c3b532ba8aab" title="removeEdgeFromTouchingVertices" alt="" coords="179,411,402,437"/>
+</map>

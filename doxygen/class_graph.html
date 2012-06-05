@@ -1,0 +1,943 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>cpp: Graph&lt; V, E &gt; Template-Klassenreferenz</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">cpp&#160;<span id="projectnumber">Version 1.0</span></div>
+   <div id="projectbrief">cpp</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li><a href="classes.html"><span>Datenstruktur-Verzeichnis</span></a></li>
+      <li><a href="inherits.html"><span>Klassenhierarchie</span></a></li>
+      <li><a href="functions.html"><span>Datenstruktur-Elemente</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Öffentliche Methoden</a>  </div>
+  <div class="headertitle">
+<div class="title">Graph&lt; V, E &gt; Template-Klassenreferenz</div>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="Graph" -->
+<p><code>#include &lt;<a class="el" href="_graph_8h_source.html">Graph.h</a>&gt;</code></p>
+<div class="dynheader">
+Klassendiagramm für Graph&lt; V, E &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph__inherit__graph.png" border="0" usemap="#_graph_3_01_v_00_01_e_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="_graph_3_01_v_00_01_e_01_4_inherit__map" id="_graph_3_01_v_00_01_e_01_4_inherit__map">
+<area shape="rect" id="node3" href="class_abstract_graph.html" title="{AbstractGraph\&lt; V, E \&gt;\n||+ AbstractGraph()\l+ containsEdgeV()\l+ removeAllEdges()\l+ removeAllEdges()\l+ removeAllVertices()\l# assertVertexExist()\l}" alt="" coords="423,425,579,575"/><area shape="rect" id="node15" href="class_graph_delegator.html" title="{GraphDelegator\&lt; V, E \&gt;\n|&#45; delegate\l|+ GraphDelegator()\l+ ~GraphDelegator()\l+ getAllEdges()\l+ getEdge()\l+ getEdgeFactory()\l+ addEdge()\l+ addEdge()\l+ addVertex()\l+ containsEdge()\l+ containsVertex()\l+ degreeOf()\l+ edgeSet()\l+ edgesOf()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l+ removeEdge()\l+ removeEdge()\l+ removeVertex()\l+ toString()\l+ vertexSet()\l+ getEdgeSource()\l+ getEdgeTarget()\l+ getEdgeWeight()\l+ setEdgeWeight()\l}" alt="" coords="539,713,701,1157"/><area shape="rect" id="node20" href="class_undirected_graph.html" title="{UndirectedGraph\&lt; V, E \&gt;\n||+ degreeOf()\l}" alt="" coords="655,461,824,539"/><area shape="rect" id="node23" href="class_weighted_graph.html" title="{WeightedGraph\&lt; V, E \&gt;\n|+ DEFAULT_EDGE_WEIGHT\l|+ setEdgeWeight()\l}" alt="" coords="5,1367,200,1444"/><area shape="rect" id="node5" href="class_abstract_base_graph.html" title="{AbstractBaseGraph\&lt; V, E \&gt;\n|+ edgeFactory\l+ edgeSetFactory\l+ edgeMap\l+ unmodifiableEdgeSet\l+ unmodifiableVertexSet\l+ allowingMultipleEdges\l+ specifics\l+ allowingLoops\l|+ AbstractBaseGraph()\l+ getAllEdges()\l+ isAllowingLoops()\l+ isAllowingMultipleEdges()\l+ getEdge()\l+ getEdgeFactory()\l+ setEdgeSetFactory()\l+ addEdge()\l+ addEdge()\l+ createIntrusiveEdge()\l+ addVertex()\l+ getEdgeSource()\l+ getEdgeTarget()\l+ getIntrusiveEdge()\l+ AbstractBaseGraph()\l+ containsEdge()\l+ containsVertex()\l+ degreeOf()\l+ edgeSet()\l+ edgesOf()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l+ removeEdge()\l+ removeEdge()\l+ removeVertex()\l+ vertexSet()\l+ getEdgeWeight()\l+ setEdgeWeight()\l+ dummy()\l}" alt="" coords="328,625,515,1245"/><area shape="rect" id="node7" href="class_default_directed_graph.html" title="{DefaultDirectedGraph\&lt; V, E \&gt;\n||+ DefaultDirectedGraph()\l+ DefaultDirectedGraph()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l}" alt="" coords="224,1330,419,1481"/><area shape="rect" id="node11" href="class_directed_multigraph.html" title="{DirectedMultigraph\&lt; V, E \&gt;\n||+ DirectedMultigraph()\l+ ~DirectedMultigraph()\l}" alt="" coords="443,1359,623,1451"/><area shape="rect" id="node9" href="class_default_directed_weighted_graph.html" title="{DefaultDirectedWeightedGraph\&lt; V, E \&gt;\n||+ DefaultDirectedWeightedGraph()\l+ DefaultDirectedWeightedGraph()\l+ ~DefaultDirectedWeightedGraph()\l}" alt="" coords="59,1565,309,1672"/><area shape="rect" id="node13" href="class_directed_weighted_multigraph.html" title="{DirectedWeightedMultigraph\&lt; V, E \&gt;\n||+ DirectedWeightedMultigraph()\l+ ~DirectedWeightedMultigraph()\l}" alt="" coords="375,1573,609,1665"/><area shape="rect" id="node17" href="class_as_undirected_graph.html" title="{AsUndirectedGraph\&lt; V, E \&gt;\n||+ AsUndirectedGraph()\l+ ~AsUndirectedGraph()\l+ getAllEdges()\l+ getEdge()\l+ addEdge()\l+ addEdge()\l+ degreeOf()\l+ inDegreeOf()\l+ incomingEdgesOf()\l+ outDegreeOf()\l+ outgoingEdgesOf()\l}" alt="" coords="647,1293,832,1517"/></map>
+<center><span class="legend">[<a href="graph_legend.html">Legende</a>]</span></center></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Öffentliche Methoden</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual set&lt; E * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#ae28ed016fd1b2aafe10b252eef173316">getAllEdges</a> (V *sourceVertex, V *targetVertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual E *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a44dd5c737a157823289a824e0e77a03e">getEdge</a> (V *sourceVertex, V *targetVertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_edge_factory.html">EdgeFactory</a>&lt; V, E &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a666807bb15503964e7d56ec4af921ff3">getEdgeFactory</a> ()=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual E *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#aa116bd4e9779e69276933db018c66b2f">addEdge</a> (V *sourceVertex, V *targetVertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a4e323f33e68bf0693f4b39950edb3a5a">addEdge</a> (V *sourceVertex, V *targetVertex, E *e)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a9c0d92fa166b2965817cc13260354026">addVertex</a> (V *v)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#aa99ea045341375b7db1610d514aabd4c">containsEdgeV</a> (V *sourceVertex, V *targetVertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a12f5aeb14b1205f10c0d1e9bba6b8748">containsEdge</a> (E *e)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a29f1b6d0f79fd422966c1db3308679c6">containsVertex</a> (V *v)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual const set&lt; E * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a17767d326edfe4c6e6943f6544237f45">edgeSet</a> ()=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual const set&lt; E * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a4f3db667d07a0bb9bf34b6b1f6cb8e41">edgesOf</a> (V *vertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a49f181eb243265d0fac37d87f5fba072">removeAllEdges</a> (set&lt; E * &gt; *edges)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual set&lt; E * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#aad889a0f9caa8433491a2d653fbe37f4">removeAllEdges</a> (V *sourceVertex, V *targetVertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#abd91323ec5c7283ba47046f097ae3328">removeAllVertices</a> (set&lt; V * &gt; *vertices)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual E *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#abd48ad1654c0800c7004f94f8e54b376">removeEdge</a> (V *sourceVertex, V *targetVertex)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a2cf192ad807e05f24f510d4d325397a8">removeEdge</a> (E *e)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a0d89c17785e64ba5dae2a87f996dd974">removeVertex</a> (V *v)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual const set&lt; V * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a21e2985648896d88b66a32a9c6cc10c4">vertexSet</a> ()=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual V *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a438506ac47612b4a68d18e515d287749">getEdgeSource</a> (E *e)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual V *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#ad0e39ab2533bd905ccffe4ba6c234de9">getEdgeTarget</a> (E *e)=0</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_graph.html#a9f6909e5fbeac3c0bfd4477ae87cb976">getEdgeWeight</a> (E *e)=0</td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>Ausführliche Beschreibung</h2>
+<div class="textblock"><h3>template&lt;class V, class E&gt;<br/>
+class Graph&lt; V, E &gt;</h3>
+
+<p>The root interface in the graph hierarchy. A mathematical graph-theory graph object <code>G(V*,E*)</code> contains a set <code>V*</code> of vertices and a set <code> E*</code> of edges. Each edge e=(v1,v2) in E* connects vertex v1 to vertex v2. for more information about graphs and their related definitions see <a href="http://mathworld.wolfram.com/Graph.html">http://mathworld.wolfram.com/Graph.html</a>.</p>
+<p>This library generally follows the terminology found at: <a href="http://mathworld.wolfram.com/topics/GraphTheory.html">http://mathworld.wolfram.com/topics/GraphTheory.html</a>. Implementation of this interface can provide simple-graphs, multigraphs, pseudographs etc. The package <code>org.jgrapht.graph</code> provides a gallery of abstract and concrete graph implementations.</p>
+<p>This library works best when vertices represent arbitrary objects and edges represent the relationships between them. Vertex and edge instances may be shared by more than one graph.</p>
+<p>Through templates, a graph can be typed to specific classes for vertices <code>V*</code> and edges <code>E*&lt;T&gt;</code>. Such a graph can contain vertices of type <code>V*</code> and all sub-types and Edges of type <code> E*</code> and all sub-types.</p>
+<p>For guidelines on vertex and edge classes, see <a href="http://pub.eigenbase.org/wiki/JGraphT:EqualsAndHashCode">this wiki page</a>.</p>
+<dl class="author"><dt><b>Autor:</b></dt><dd>Manuel Webersen &lt;<a href="mailto:webem@mail.upb.de">webem@mail.upb.de</a>&gt; </dd></dl>
+<dl class="since"><dt><b>Seit:</b></dt><dd>2011-06-03 </dd></dl>
+</div><hr/><h2>Dokumentation der Elementfunktionen</h2>
+<a class="anchor" id="aa116bd4e9779e69276933db018c66b2f"></a><!-- doxytag: member="Graph::addEdge" ref="aa116bd4e9779e69276933db018c66b2f" args="(V *sourceVertex, V *targetVertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual E* addEdge </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Creates a new edge in this graph, going from the source vertex to the target vertex, and returns the created edge. Some graphs do not allow edge-multiplicity. In such cases, if the graph already contains an edge from the specified source to the specified target, than this method does not change the graph and returns <code>null</code>.</p>
+<p>The source and target vertices must already be contained in this graph. If they are not found in graph invalid_argument is thrown.</p>
+<p>This method creates the new edge <code>e</code> using this graph's <code><a class="el" href="class_edge_factory.html">EdgeFactory</a></code>. For the new edge to be added <code>e</code> must <em>not</em> be equal to any other edge the graph (even if the graph allows edge-multiplicity). More formally, the graph must not contain any edge <code>e2</code> such that <code>e2.equals(e)</code>. If such <code> e2</code> is found then the newly created edge <code>e</code> is abandoned, the method leaves this graph unchanged returns <code> null</code>.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>The newly created edge if added to the graph, otherwise <code> null</code>.</dd></dl>
+<dl><dt><b>Ausnahmebehandlung:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td>if source or target vertices are not found in the graph. </td></tr>
+    <tr><td class="paramname">invalid_argument</td><td>if any of the specified vertices is <code> null</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>Siehe auch:</b></dt><dd><a class="el" href="class_graph.html#a666807bb15503964e7d56ec4af921ff3">getEdgeFactory()</a> </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a7e547bdd019af126cfa6cc886522d99b">AbstractBaseGraph&lt; V, E &gt;</a>, <a class="el" href="class_as_undirected_graph.html#a7e547bdd019af126cfa6cc886522d99b">AsUndirectedGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a7e547bdd019af126cfa6cc886522d99b">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_aa116bd4e9779e69276933db018c66b2f_icgraph.png" border="0" usemap="#class_graph_aa116bd4e9779e69276933db018c66b2f_icgraph" alt=""/></div>
+<map name="class_graph_aa116bd4e9779e69276933db018c66b2f_icgraph" id="class_graph_aa116bd4e9779e69276933db018c66b2f_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a22da52cd8f22e33d06ff4f5f17bbb32a" title="Graphs::addAllEdges" alt="" coords="155,5,301,32"/><area shape="rect" id="node5" href="class_graphs.html#ab255c8b8d02b42dc9cc14e84431c3a99" title="Graphs::addEdge" alt="" coords="167,56,289,83"/><area shape="rect" id="node9" href="class_graphs.html#ae2e9fc430b7c1f467e3c40b0b1d8ca0e" title="Graphs::addEdgeWithVertices" alt="" coords="129,107,327,133"/><area shape="rect" id="node7" href="class_graphs.html#a0338125946062d959b71920ab4b2d4f6" title="Graphs::addEdgeWithVertices" alt="" coords="377,56,575,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e323f33e68bf0693f4b39950edb3a5a"></a><!-- doxytag: member="Graph::addEdge" ref="a4e323f33e68bf0693f4b39950edb3a5a" args="(V *sourceVertex, V *targetVertex, E *e)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool addEdge </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">E *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Adds the specified edge to this graph, going from the source vertex to the target vertex. More formally, adds the specified edge, <code> e</code>, to this graph if this graph contains no edge <code>e2</code> such that <code>e2.equals(e)</code>. If this graph already contains such an edge, the call leaves this graph unchanged and returns <code>false</code>. Some graphs do not allow edge-multiplicity. In such cases, if the graph already contains an edge from the specified source to the specified target, than this method does not change the graph and returns <code> false</code>. If the edge was added to the graph, returns <code> true</code>.</p>
+<p>The source and target vertices must already be contained in this graph. If they are not found in graph invalid_argument is thrown.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge. </td></tr>
+    <tr><td class="paramname">e</td><td>edge to be added to this graph.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph did not already contain the specified edge.</dd></dl>
+<dl><dt><b>Ausnahmebehandlung:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td>if source or target vertices are not found in the graph. </td></tr>
+    <tr><td class="paramname">invalid_argument</td><td>if the specified edge is not assignment compatible with the class of edges produced by the edge factory of this graph. </td></tr>
+    <tr><td class="paramname">invalid_argument</td><td>if any of the specified vertices is <code> null</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>Siehe auch:</b></dt><dd>#addEdge(Object, Object) </dd>
+<dd>
+<a class="el" href="class_graph.html#a666807bb15503964e7d56ec4af921ff3">getEdgeFactory()</a> </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a2031a6f68622009e2c633481bec233a5">AbstractBaseGraph&lt; V, E &gt;</a>, <a class="el" href="class_as_undirected_graph.html#a2031a6f68622009e2c633481bec233a5">AsUndirectedGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a2031a6f68622009e2c633481bec233a5">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c0d92fa166b2965817cc13260354026"></a><!-- doxytag: member="Graph::addVertex" ref="a9c0d92fa166b2965817cc13260354026" args="(V *v)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool addVertex </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Adds the specified vertex to this graph if not already present. More formally, adds the specified vertex, <code>v</code>, to this graph if this graph contains no vertex <code>u</code> such that <code> u.equals(v)</code>. If this graph already contains such vertex, the call leaves this graph unchanged and returns <code>false</code>. In combination with the restriction on constructors, this ensures that graphs never contain duplicate vertices.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>vertex to be added to this graph.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph did not already contain the specified vertex.</dd></dl>
+<dl><dt><b>Ausnahmebehandlung:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td>if the specified vertex is <code> null</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a8d3ddddf68676d9488dd7a416aa23150">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a8d3ddddf68676d9488dd7a416aa23150">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a9c0d92fa166b2965817cc13260354026_icgraph.png" border="0" usemap="#class_graph_a9c0d92fa166b2965817cc13260354026_icgraph" alt=""/></div>
+<map name="class_graph_a9c0d92fa166b2965817cc13260354026_icgraph" id="class_graph_a9c0d92fa166b2965817cc13260354026_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a22da52cd8f22e33d06ff4f5f17bbb32a" title="Graphs::addAllEdges" alt="" coords="163,5,309,32"/><area shape="rect" id="node5" href="class_graphs.html#a16d726eec19960dfc4d10e0b54abd4d0" title="Graphs::addAllVertices" alt="" coords="158,56,314,83"/><area shape="rect" id="node7" href="class_graphs.html#ae2e9fc430b7c1f467e3c40b0b1d8ca0e" title="Graphs::addEdgeWithVertices" alt="" coords="137,107,335,133"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a12f5aeb14b1205f10c0d1e9bba6b8748"></a><!-- doxytag: member="Graph::containsEdge" ref="a12f5aeb14b1205f10c0d1e9bba6b8748" args="(E *e)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool containsEdge </td>
+          <td>(</td>
+          <td class="paramtype">E *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns <code>true</code> if this graph contains the specified edge. More formally, returns <code>true</code> if and only if this graph contains an edge <code>e2</code> such that <code>e.equals(e2)</code>. If the specified edge is <code>null</code> returns <code>false</code>.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>edge whose presence in this graph is to be tested.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph contains the specified edge. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#aaf19c18d9a70b7b77a5f91147df2d62c">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#aaf19c18d9a70b7b77a5f91147df2d62c">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa99ea045341375b7db1610d514aabd4c"></a><!-- doxytag: member="Graph::containsEdgeV" ref="aa99ea045341375b7db1610d514aabd4c" args="(V *sourceVertex, V *targetVertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool containsEdgeV </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns <code>true</code> if and only if this graph contains an edge going from the source vertex to the target vertex. In undirected graphs the same result is obtained when source and target are inverted. If any of the specified vertices does not exist in the graph, or if is <code> null</code>, returns <code>false</code>.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph contains the specified edge. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_graph.html#aa5656d43502f30742b89589a9fc4c892">AbstractGraph&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a29f1b6d0f79fd422966c1db3308679c6"></a><!-- doxytag: member="Graph::containsVertex" ref="a29f1b6d0f79fd422966c1db3308679c6" args="(V *v)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool containsVertex </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns <code>true</code> if this graph contains the specified vertex. More formally, returns <code>true</code> if and only if this graph contains a vertex <code>u</code> such that <code>u.equals(v)</code>. If the specified vertex is <code>null</code> returns <code>false</code>.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>vertex whose presence in this graph is to be tested.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph contains the specified vertex. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a525df886e86b7a805ec2724ae039a061">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a525df886e86b7a805ec2724ae039a061">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a29f1b6d0f79fd422966c1db3308679c6_icgraph.png" border="0" usemap="#class_graph_a29f1b6d0f79fd422966c1db3308679c6_icgraph" alt=""/></div>
+<map name="class_graph_a29f1b6d0f79fd422966c1db3308679c6_icgraph" id="class_graph_a29f1b6d0f79fd422966c1db3308679c6_icgraph">
+<area shape="rect" id="node3" href="class_abstract_graph.html#a498dd9317d86a4babf3e55b5b7a7a225" title="AbstractGraph::assertVertexExist" alt="" coords="163,5,381,32"/><area shape="rect" id="node5" href="class_abstract_base_graph.html#a7e547bdd019af126cfa6cc886522d99b" title="AbstractBaseGraph::addEdge" alt="" coords="429,5,624,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a17767d326edfe4c6e6943f6544237f45"></a><!-- doxytag: member="Graph::edgeSet" ref="a17767d326edfe4c6e6943f6544237f45" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const set&lt;E*&gt;* edgeSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns a set of the edges contained in this graph. The set is backed by the graph, so changes to the graph are reflected in the set. If the graph is modified while an iteration over the set is in progress, the results of the iteration are undefined.</p>
+<p>The graph implementation may maintain a particular set ordering (e.g. via <a class="el" href="">java.util.LinkedHashSet</a>) for deterministic iteration, but this is not required. It is the responsibility of callers who rely on this behavior to only use graph implementations which support it.</p>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>a set of the edges contained in this graph. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a9eff5342445c4458bb35b5eb98fff29e">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a3d1ef72a031334e36240744edf5d52e4">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a17767d326edfe4c6e6943f6544237f45_icgraph.png" border="0" usemap="#class_graph_a17767d326edfe4c6e6943f6544237f45_icgraph" alt=""/></div>
+<map name="class_graph_a17767d326edfe4c6e6943f6544237f45_icgraph" id="class_graph_a17767d326edfe4c6e6943f6544237f45_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a75bff5ba14f72a5d84231d19fec39601" title="Graphs::addGraph" alt="" coords="125,5,253,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4f3db667d07a0bb9bf34b6b1f6cb8e41"></a><!-- doxytag: member="Graph::edgesOf" ref="a4f3db667d07a0bb9bf34b6b1f6cb8e41" args="(V *vertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const set&lt;E*&gt;* edgesOf </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>vertex</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns a set of all edges touching the specified vertex. If no edges are touching the specified vertex returns an empty set.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertex</td><td>the vertex for which a set of touching edges is to be returned.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>a set of all edges touching the specified vertex.</dd></dl>
+<dl><dt><b>Ausnahmebehandlung:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td>if vertex is not found in the graph. </td></tr>
+    <tr><td class="paramname">invalid_argument</td><td>if vertex is <code>null</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a64f71021386c68174ff6a69e7d0792e6">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a64f71021386c68174ff6a69e7d0792e6">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a4f3db667d07a0bb9bf34b6b1f6cb8e41_icgraph.png" border="0" usemap="#class_graph_a4f3db667d07a0bb9bf34b6b1f6cb8e41_icgraph" alt=""/></div>
+<map name="class_graph_a4f3db667d07a0bb9bf34b6b1f6cb8e41_icgraph" id="class_graph_a4f3db667d07a0bb9bf34b6b1f6cb8e41_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a15150b552c2544896f81596933a4e93a" title="Graphs::neighborListOf" alt="" coords="125,5,280,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae28ed016fd1b2aafe10b252eef173316"></a><!-- doxytag: member="Graph::getAllEdges" ref="ae28ed016fd1b2aafe10b252eef173316" args="(V *sourceVertex, V *targetVertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual set&lt;E*&gt;* getAllEdges </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns a set of all edges connecting source vertex to target vertex if such vertices exist in this graph. If any of the vertices does not exist or is <code>null</code>, returns <code>null</code>. If both vertices exist but no edges found, returns an empty set.</p>
+<p>In undirected graphs, some of the returned edges may have their source and target vertices in the opposite order. In simple graphs the returned set is either singleton set or empty set.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>a set of all edges connecting source vertex to target vertex. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a191941579e5bf4155c061e59a6f1367a">AbstractBaseGraph&lt; V, E &gt;</a>, <a class="el" href="class_as_undirected_graph.html#a191941579e5bf4155c061e59a6f1367a">AsUndirectedGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a191941579e5bf4155c061e59a6f1367a">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_ae28ed016fd1b2aafe10b252eef173316_icgraph.png" border="0" usemap="#class_graph_ae28ed016fd1b2aafe10b252eef173316_icgraph" alt=""/></div>
+<map name="class_graph_ae28ed016fd1b2aafe10b252eef173316_icgraph" id="class_graph_ae28ed016fd1b2aafe10b252eef173316_icgraph">
+<area shape="rect" id="node3" href="class_abstract_graph.html#a14a5eee642feacf01648ec6d1c1c6570" title="AbstractGraph::removeAllEdges" alt="" coords="147,5,354,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a44dd5c737a157823289a824e0e77a03e"></a><!-- doxytag: member="Graph::getEdge" ref="a44dd5c737a157823289a824e0e77a03e" args="(V *sourceVertex, V *targetVertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual E* getEdge </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns an edge connecting source vertex to target vertex if such vertices and such edge exist in this graph. Otherwise returns <code> null</code>. If any of the specified vertices is <code>null</code> returns <code>null</code></p>
+<p>In undirected graphs, the returned edge may have its source and target vertices in the opposite order.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>an edge connecting source vertex to target vertex. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a615cb9f49c5f2c89947b9baee1208b88">AbstractBaseGraph&lt; V, E &gt;</a>, <a class="el" href="class_as_undirected_graph.html#a615cb9f49c5f2c89947b9baee1208b88">AsUndirectedGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a615cb9f49c5f2c89947b9baee1208b88">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a44dd5c737a157823289a824e0e77a03e_icgraph.png" border="0" usemap="#class_graph_a44dd5c737a157823289a824e0e77a03e_icgraph" alt=""/></div>
+<map name="class_graph_a44dd5c737a157823289a824e0e77a03e_icgraph" id="class_graph_a44dd5c737a157823289a824e0e77a03e_icgraph">
+<area shape="rect" id="node3" href="class_abstract_graph.html#aa5656d43502f30742b89589a9fc4c892" title="AbstractGraph::containsEdgeV" alt="" coords="125,5,328,32"/><area shape="rect" id="node5" href="class_abstract_base_graph.html#a7e547bdd019af126cfa6cc886522d99b" title="AbstractBaseGraph::addEdge" alt="" coords="376,5,571,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a666807bb15503964e7d56ec4af921ff3"></a><!-- doxytag: member="Graph::getEdgeFactory" ref="a666807bb15503964e7d56ec4af921ff3" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_edge_factory.html">EdgeFactory</a>&lt;V, E&gt;* getEdgeFactory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns the edge factory using which this graph creates new edges. The edge factory is defined when the graph is constructed and must not be modified.</p>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>the edge factory using which this graph creates new edges. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#ab24a428baacd5048623c1d995acbd6e8">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#ab24a428baacd5048623c1d995acbd6e8">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a666807bb15503964e7d56ec4af921ff3_icgraph.png" border="0" usemap="#class_graph_a666807bb15503964e7d56ec4af921ff3_icgraph" alt=""/></div>
+<map name="class_graph_a666807bb15503964e7d56ec4af921ff3_icgraph" id="class_graph_a666807bb15503964e7d56ec4af921ff3_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#ab255c8b8d02b42dc9cc14e84431c3a99" title="Graphs::addEdge" alt="" coords="168,5,291,32"/><area shape="rect" id="node5" href="class_graphs.html#a0338125946062d959b71920ab4b2d4f6" title="Graphs::addEdgeWithVertices" alt="" coords="339,5,538,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a438506ac47612b4a68d18e515d287749"></a><!-- doxytag: member="Graph::getEdgeSource" ref="a438506ac47612b4a68d18e515d287749" args="(E *e)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual V* getEdgeSource </td>
+          <td>(</td>
+          <td class="paramtype">E *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns the source vertex of an edge. For an undirected graph, source and target are distinguishable designations (but without any mathematical meaning).</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>edge of interest</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>source vertex </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a7bd1394ec689ec037ec1c30bf82857b9">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a7bd1394ec689ec037ec1c30bf82857b9">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a438506ac47612b4a68d18e515d287749_icgraph.png" border="0" usemap="#class_graph_a438506ac47612b4a68d18e515d287749_icgraph" alt=""/></div>
+<map name="class_graph_a438506ac47612b4a68d18e515d287749_icgraph" id="class_graph_a438506ac47612b4a68d18e515d287749_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a22da52cd8f22e33d06ff4f5f17bbb32a" title="Graphs::addAllEdges" alt="" coords="193,5,338,32"/><area shape="rect" id="node5" href="class_graphs.html#ab2795790196eed65b7631c0e945bf29f" title="Graphs::addEdgeWithVertices" alt="" coords="166,56,365,83"/><area shape="rect" id="node7" href="class_graphs.html#a33bdc9a61ac3459f851a202ca21b874b" title="Graphs::getOppositeVertex" alt="" coords="175,107,355,133"/><area shape="rect" id="node17" href="class_graphs.html#a9e5f89b352fed90d2e3a787e9ffe092a" title="Graphs::testIncidence" alt="" coords="191,157,340,184"/><area shape="rect" id="node9" href="class_graphs.html#a8b1e8a8b447baa1139815d092ce9736c" title="Graphs::getPathVertexList" alt="" coords="415,31,591,57"/><area shape="rect" id="node11" href="class_graphs.html#a15150b552c2544896f81596933a4e93a" title="Graphs::neighborListOf" alt="" coords="425,81,580,108"/><area shape="rect" id="node13" href="class_graphs.html#a291239e58a487d91c625207308e8e4c9" title="Graphs::predecessorListOf" alt="" coords="414,132,591,159"/><area shape="rect" id="node15" href="class_graphs.html#ab170b054458cba7a903f48a99f2a0aa9" title="Graphs::successorListOf" alt="" coords="419,183,586,209"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0e39ab2533bd905ccffe4ba6c234de9"></a><!-- doxytag: member="Graph::getEdgeTarget" ref="ad0e39ab2533bd905ccffe4ba6c234de9" args="(E *e)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual V* getEdgeTarget </td>
+          <td>(</td>
+          <td class="paramtype">E *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns the target vertex of an edge. For an undirected graph, source and target are distinguishable designations (but without any mathematical meaning).</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>edge of interest</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>target vertex </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a5b3752b3fb37d852a709eea9c7896f66">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a5b3752b3fb37d852a709eea9c7896f66">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_ad0e39ab2533bd905ccffe4ba6c234de9_icgraph.png" border="0" usemap="#class_graph_ad0e39ab2533bd905ccffe4ba6c234de9_icgraph" alt=""/></div>
+<map name="class_graph_ad0e39ab2533bd905ccffe4ba6c234de9_icgraph" id="class_graph_ad0e39ab2533bd905ccffe4ba6c234de9_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a22da52cd8f22e33d06ff4f5f17bbb32a" title="Graphs::addAllEdges" alt="" coords="187,5,333,32"/><area shape="rect" id="node5" href="class_graphs.html#ab2795790196eed65b7631c0e945bf29f" title="Graphs::addEdgeWithVertices" alt="" coords="161,56,359,83"/><area shape="rect" id="node7" href="class_graphs.html#a33bdc9a61ac3459f851a202ca21b874b" title="Graphs::getOppositeVertex" alt="" coords="170,107,350,133"/><area shape="rect" id="node17" href="class_graphs.html#a9e5f89b352fed90d2e3a787e9ffe092a" title="Graphs::testIncidence" alt="" coords="185,157,335,184"/><area shape="rect" id="node9" href="class_graphs.html#a8b1e8a8b447baa1139815d092ce9736c" title="Graphs::getPathVertexList" alt="" coords="409,31,585,57"/><area shape="rect" id="node11" href="class_graphs.html#a15150b552c2544896f81596933a4e93a" title="Graphs::neighborListOf" alt="" coords="420,81,575,108"/><area shape="rect" id="node13" href="class_graphs.html#a291239e58a487d91c625207308e8e4c9" title="Graphs::predecessorListOf" alt="" coords="409,132,586,159"/><area shape="rect" id="node15" href="class_graphs.html#ab170b054458cba7a903f48a99f2a0aa9" title="Graphs::successorListOf" alt="" coords="414,183,581,209"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9f6909e5fbeac3c0bfd4477ae87cb976"></a><!-- doxytag: member="Graph::getEdgeWeight" ref="a9f6909e5fbeac3c0bfd4477ae87cb976" args="(E *e)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double getEdgeWeight </td>
+          <td>(</td>
+          <td class="paramtype">E *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns the weight assigned to a given edge. Unweighted graphs return 1.0 (as defined by <a class="el" href="class_weighted_graph.html#a73b4ee02635ce2b0955a6defdf87f51c">WeightedGraph#DEFAULT_EDGE_WEIGHT</a>), allowing weighted-graph algorithms to apply to them where meaningful.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>edge of interest</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>edge weight</dd></dl>
+<dl class="see"><dt><b>Siehe auch:</b></dt><dd><a class="el" href="class_weighted_graph.html">WeightedGraph</a> </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a5a072d7a8e3568f79e35277b49623fe1">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a5a072d7a8e3568f79e35277b49623fe1">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad889a0f9caa8433491a2d653fbe37f4"></a><!-- doxytag: member="Graph::removeAllEdges" ref="aad889a0f9caa8433491a2d653fbe37f4" args="(V *sourceVertex, V *targetVertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual set&lt;E*&gt;* removeAllEdges </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes all the edges going from the specified source vertex to the specified target vertex, and returns a set of all removed edges. Returns <code>null</code> if any of the specified vertices does not exist in the graph. If both vertices exist but no edge is found, returns an empty set. This method will either invoke the <a class="el" href="">removeEdge(Object)</a> method, or the <a class="el" href="">removeEdge(Object, Object)</a> method.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>the removed edges, or <code>null</code> if no either vertex not part of graph </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_graph.html#a14a5eee642feacf01648ec6d1c1c6570">AbstractGraph&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a49f181eb243265d0fac37d87f5fba072"></a><!-- doxytag: member="Graph::removeAllEdges" ref="a49f181eb243265d0fac37d87f5fba072" args="(set&lt; E * &gt; *edges)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool removeAllEdges </td>
+          <td>(</td>
+          <td class="paramtype">set&lt; E * &gt; *&#160;</td>
+          <td class="paramname"><em>edges</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes all the edges in this graph that are also contained in the specified edge set. After this call returns, this graph will contain no edges in common with the specified edges. This method will invoke the <a class="el" href="">removeEdge(Object)</a> method.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edges</td><td>edges to be removed from this graph.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph changed as a result of the call</dd></dl>
+<dl><dt><b>Ausnahmebehandlung:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td>if the specified edge collection is <code> null</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>Siehe auch:</b></dt><dd>#removeEdge(Object) </dd>
+<dd>
+#containsEdge(Object) </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_graph.html#a9f19dc52d31ff05d1606ada9c94982ca">AbstractGraph&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd91323ec5c7283ba47046f097ae3328"></a><!-- doxytag: member="Graph::removeAllVertices" ref="abd91323ec5c7283ba47046f097ae3328" args="(set&lt; V * &gt; *vertices)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool removeAllVertices </td>
+          <td>(</td>
+          <td class="paramtype">set&lt; V * &gt; *&#160;</td>
+          <td class="paramname"><em>vertices</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes all the vertices in this graph that are also contained in the specified vertex set. After this call returns, this graph will contain no vertices in common with the specified vertices. This method will invoke the <a class="el" href="">removeVertex(Object)</a> method.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertices</td><td>vertices to be removed from this graph.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if this graph changed as a result of the call</dd></dl>
+<dl><dt><b>Ausnahmebehandlung:</b></dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">invalid_argument</td><td>if the specified vertex collection is <code> null</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>Siehe auch:</b></dt><dd>#removeVertex(Object) </dd>
+<dd>
+#containsVertex(Object) </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_graph.html#a7c75bcc2779959476d721244d3b04c3f">AbstractGraph&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd48ad1654c0800c7004f94f8e54b376"></a><!-- doxytag: member="Graph::removeEdge" ref="abd48ad1654c0800c7004f94f8e54b376" args="(V *sourceVertex, V *targetVertex)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual E* removeEdge </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>targetVertex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes an edge going from source vertex to target vertex, if such vertices and such edge exist in this graph. Returns the edge if removed or <code>null</code> otherwise.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sourceVertex</td><td>source vertex of the edge. </td></tr>
+    <tr><td class="paramname">targetVertex</td><td>target vertex of the edge.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>The removed edge, or <code>null</code> if no edge removed. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a4f071b0b92f6df2f4015d3a65fd85bbb">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a4f071b0b92f6df2f4015d3a65fd85bbb">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_abd48ad1654c0800c7004f94f8e54b376_icgraph.png" border="0" usemap="#class_graph_abd48ad1654c0800c7004f94f8e54b376_icgraph" alt=""/></div>
+<map name="class_graph_abd48ad1654c0800c7004f94f8e54b376_icgraph" id="class_graph_abd48ad1654c0800c7004f94f8e54b376_icgraph">
+<area shape="rect" id="node3" href="class_abstract_graph.html#a9f19dc52d31ff05d1606ada9c94982ca" title="AbstractGraph::removeAllEdges" alt="" coords="147,31,354,57"/><area shape="rect" id="node5" href="class_abstract_graph.html#a14a5eee642feacf01648ec6d1c1c6570" title="AbstractGraph::removeAllEdges" alt="" coords="411,5,618,32"/><area shape="rect" id="node7" href="class_abstract_base_graph.html#a81802ad662cc2bac2c703bdba2a09964" title="AbstractBaseGraph::removeVertex" alt="" coords="403,56,626,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2cf192ad807e05f24f510d4d325397a8"></a><!-- doxytag: member="Graph::removeEdge" ref="a2cf192ad807e05f24f510d4d325397a8" args="(E *e)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool removeEdge </td>
+          <td>(</td>
+          <td class="paramtype">E *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes the specified edge from the graph. Removes the specified edge from this graph if it is present. More formally, removes an edge <code> e2</code> such that <code>e2.equals(e)</code>, if the graph contains such edge. Returns <code>true</code> if the graph contained the specified edge. (The graph will not contain the specified edge once the call returns).</p>
+<p>If the specified edge is <code>null</code> returns <code> false</code>.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>edge to be removed from this graph, if present.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if and only if the graph contained the specified edge. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#acab1a3ed96c4dbe94bf01e858e13c8ec">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#acab1a3ed96c4dbe94bf01e858e13c8ec">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d89c17785e64ba5dae2a87f996dd974"></a><!-- doxytag: member="Graph::removeVertex" ref="a0d89c17785e64ba5dae2a87f996dd974" args="(V *v)=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool removeVertex </td>
+          <td>(</td>
+          <td class="paramtype">V *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Removes the specified vertex from this graph including all its touching edges if present. More formally, if the graph contains a vertex <code> u</code> such that <code>u.equals(v)</code>, the call removes all edges that touch <code>u</code> and then removes <code>u</code> itself. If no such <code>u</code> is found, the call leaves the graph unchanged. Returns <code>true</code> if the graph contained the specified vertex. (The graph will not contain the specified vertex once the call returns).</p>
+<p>If the specified vertex is <code>null</code> returns <code> false</code>.</p>
+<dl><dt><b>Parameter:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>vertex to be removed from this graph, if present.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd><code>true</code> if the graph contained the specified vertex; <code>false</code> otherwise. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#a81802ad662cc2bac2c703bdba2a09964">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#a81802ad662cc2bac2c703bdba2a09964">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a0d89c17785e64ba5dae2a87f996dd974_icgraph.png" border="0" usemap="#class_graph_a0d89c17785e64ba5dae2a87f996dd974_icgraph" alt=""/></div>
+<map name="class_graph_a0d89c17785e64ba5dae2a87f996dd974_icgraph" id="class_graph_a0d89c17785e64ba5dae2a87f996dd974_icgraph">
+<area shape="rect" id="node3" href="class_abstract_graph.html#a7c75bcc2779959476d721244d3b04c3f" title="AbstractGraph::removeAllVertices" alt="" coords="155,5,373,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a21e2985648896d88b66a32a9c6cc10c4"></a><!-- doxytag: member="Graph::vertexSet" ref="a21e2985648896d88b66a32a9c6cc10c4" args="()=0" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const set&lt;V*&gt;* vertexSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Returns a set of the vertices contained in this graph. The set is backed by the graph, so changes to the graph are reflected in the set. If the graph is modified while an iteration over the set is in progress, the results of the iteration are undefined.</p>
+<p>The graph implementation may maintain a particular set ordering (e.g. via <a class="el" href="">java.util.LinkedHashSet</a>) for deterministic iteration, but this is not required. It is the responsibility of callers who rely on this behavior to only use graph implementations which support it.</p>
+<dl class="return"><dt><b>Rückgabe:</b></dt><dd>a set view of the vertices contained in this graph. </dd></dl>
+
+<p>Implementiert in <a class="el" href="class_abstract_base_graph.html#ae81508b00dab4bb44b936127a0c4f879">AbstractBaseGraph&lt; V, E &gt;</a> und <a class="el" href="class_graph_delegator.html#abee0e4e6ca1e0f61394eddfac975c951">GraphDelegator&lt; V, E &gt;</a>.</p>
+
+<p><div class="dynheader">
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_graph_a21e2985648896d88b66a32a9c6cc10c4_icgraph.png" border="0" usemap="#class_graph_a21e2985648896d88b66a32a9c6cc10c4_icgraph" alt=""/></div>
+<map name="class_graph_a21e2985648896d88b66a32a9c6cc10c4_icgraph" id="class_graph_a21e2985648896d88b66a32a9c6cc10c4_icgraph">
+<area shape="rect" id="node3" href="class_graphs.html#a75bff5ba14f72a5d84231d19fec39601" title="Graphs::addGraph" alt="" coords="131,5,259,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei:<ul>
+<li>C:/Dokumente und Einstellungen/galja/workspace/cpp/<a class="el" href="_graph_8h_source.html">Graph.h</a></li>
+</ul>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Datenstrukturen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Dateien</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funktionen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variablen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Makrodefinitionen</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Erzeugt am Fri Jul 22 2011 15:24:04 für cpp von&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_abstract_base_graph_1_1_specifics.html#a616fa36d1a5824115a05366988272d97" title="AbstractBaseGraph::Specifics::addVertex" alt="" coords="136,5,400,32"/>
+<area shape="rect" id="node5" href="$class_abstract_base_graph.html#a525df886e86b7a805ec2724ae039a061" title="containsVertex" alt="" coords="213,56,323,83"/>
+<area shape="rect" id="node7" href="$class_abstract_base_graph_1_1_specifics.html#a74fe5ce55d4c257b8b3862f630296856" title="AbstractBaseGraph::Specifics::getVertexSet" alt="" coords="449,56,730,83"/>
+</map>
