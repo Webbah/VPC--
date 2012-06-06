@@ -51,6 +51,6 @@ int main()
 		cout << e.what();
 	}
 
-	cout << "Yo.";
+	cout << "End";
 	return 0;
 }
