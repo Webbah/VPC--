@@ -1,6 +1,6 @@
 Release
 Debug
 .DS_Store
-.metadata
+.metadata/
 cppgrapht/.settings
 cppgrapht/Debug
