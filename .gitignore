@@ -4,3 +4,5 @@ Debug
 .metadata/
 cppgrapht/.settings
 cppgrapht/Debug
+.cproject
+.project
